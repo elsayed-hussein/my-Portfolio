@@ -34,13 +34,12 @@ body{
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
     padding: 0 30px;
-    top: 0;
-    left: 270px;
-    right: 0;
-    z-index: 0;
     opacity: 1;
+ }
+
+ .hidden{
+   display: none !important;
  }
 
  .padd-15{
