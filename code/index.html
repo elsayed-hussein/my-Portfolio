@@ -18,75 +18,64 @@
       href="./assets/img/tlogo.png"
       type="image/x-icon"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
     <!-- Main Css -->
     <link rel="stylesheet" href="./assets/css/index.min.css" />
-    <!-- Main Js -->
-    <!-- <script src="./assets/js/index.js" defer></script> -->
+    <!-- Font-Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
     <title>Elsayed Hussein</title>
   </head>
   <body>
-    <!-- Mobile Nav Toggle Icon Start -->
-    <!-- / Mobile Nav Toggle Icon End -->
-    <!-- Header Start -->
-    <header id="header">
-      <!-- profile Start -->
-      <div class="profile">
-        <img
-          src="./assets/img/profile-img.jpg"
-          alt="profile image"
-          class="profile-img"
-        />
-        <h1 class="profile-name">
-          <a href="/">Elsayed Hussein</a>
-        </h1>
-        <div class="social-links">
-          <a href="#" class="twitter">
-            <i class="bi bi-twitter"></i>
-          </a>
-          <a href="#" class="facebook">
-            <i class="bi bi-facebook"></i>
-          </a>
-          <a href="#" class="instagram">
-            <i class="bi bi-instagram"></i>
-          </a>
-          <a href="#" class="github">
-            <i class="bi bi-github"></i>
-          </a>
-          <a href="#" class="linkedin">
-            <i class="bi bi-linkedin"></i>
-          </a>
+    <!-- Main Container Start -->
+    <div class="main-container">
+      <!-- Aside Start -->
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>EL</span>sayed</a>
         </div>
-      </div>
-      <!--/ profile End -->
-      <!-- Navbar Menu Start -->
-      <nav class="navMenu">
-        <ul>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
           <li>
-            <a href="#" class="home">
-              <i class="bi bi-house-door-fill"></i>
-              <span>Home</span>
-            </a>
+            <a href="#" class="active"><i class="fa fa-home"></i> Home</a>
           </li>
           <li>
-            <a href="#" class="about">
-              <i class="bi bi-person-bounding-box"></i>
-              <span>About</span>
-            </a>
+            <a href="#"><i class="fa fa-user"></i> About</a>
           </li>
           <li>
-            <a href="#" class="resume">
-              <i class="bi bi-file-earmark-code-fill"></i>
-              <span>Resume</span>
-            </a>
+            <a href="#"><i class="fa fa-list"></i> Services</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-briefcase"></i> Portfolio</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-comments"></i> Contact</a>
           </li>
         </ul>
-      </nav>
-      <!-- / Navbar Menu End -->
-    </header>
-    <!-- / Header End -->
+      </div>
+      <!-- / Aside End -->
+      <!-- Main Content Start -->
+      <div class="main-content">
+        <!-- Home Section Start -->
+        <section class="home section">
+          <div class="container">
+            <div class="row">
+              <div class="home-info">
+                <h3 class="hello"></h3>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- / Home Section End -->
+      </div>
+      <!-- / Main Content End  -->
+    </div>
+    <!-- / Main Container End -->
+    <!-- Main Js -->
+    <!-- <script src="./assets/js/index.js"></script> -->
   </body>
 </html>
