@@ -1,4 +1,10 @@
 @use "home";
+@use "about";
 .main-content{
     padding-left: 270px;
+}
+
+.section-title{
+    flex:0 0 100%;
+    max-width: 100%;
 }
