@@ -158,6 +158,31 @@
           border-radius: 50%;
           background-color: var(--skin-color);
         }
+        .timeline-date {
+          font-weight: 400;
+          font-size: 14px;
+          margin-bottom: 12px;
+          color: var(--text-black-700);
+
+          .fa {
+            margin-right: 5px;
+          }
+        }
+
+        .timeline-title {
+          font-weight: 700;
+          font-size: 18px;
+          margin-bottom: 15px;
+          text-transform: capitalize;
+          color: var(--text-black-900);
+        }
+
+        .timeline-text {
+          line-height: 25px;
+          font-size: 16px;
+          text-align: justify;
+          color: var(--text-black-700);
+        }
       }
     }
   }
