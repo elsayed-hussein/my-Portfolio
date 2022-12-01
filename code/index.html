@@ -668,9 +668,38 @@
       </div>
     </div>
     <!-- / Style Switcher End -->
+    <!-- Typed CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- Main Js -->
     <script src="./assets/js/index.js"></script>
     <!-- Style Switcher Js -->
     <script src="./assets/js/style-switcher.js"></script>
+    <!-- fireBase SDK -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBOF7NsndY_30roFlrT1pDV04lziqlJYmo",
+        authDomain: "elsayed-portfolio.firebaseapp.com",
+        projectId: "elsayed-portfolio",
+        storageBucket: "elsayed-portfolio.appspot.com",
+        messagingSenderId: "84327924375",
+        appId: "1:84327924375:web:573570c699ffeb5faa1fd2",
+        measurementId: "G-BCP10TBV4H",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
