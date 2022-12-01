@@ -1,6 +1,6 @@
 @use "./root";
-@use "./color";
 
 // Main Container
 @use "./aside";
-@use "./main-content/index";
+@use "./main-content";
+@use "./media";

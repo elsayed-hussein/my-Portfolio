@@ -20,11 +20,50 @@
     />
     <!-- Main CSS -->
     <link rel="stylesheet" href="./assets/css/index.min.css" />
+    <!-- Skin Color CSS -->
+    <link rel="stylesheet" href="./assets/css/skins/color-1.min.css" />
     <!-- Font-Awesome CDN -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <!-- Style Switcher Css -->
+    <link
+      rel="stylesheet"
+      href="./assets/css/skins/color-1.min.css"
+      class="alternate-style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/skins/color-2.min.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/skins/color-3.min.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/skins/color-4.min.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/skins/color-5.min.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="./assets/css/style-switcher.min.css" />
     <title>Elsayed Hussein</title>
   </head>
   <body>
@@ -60,7 +99,7 @@
       <!-- Main Content Start -->
       <div class="main-content">
         <!-- Home Section Start -->
-        <section class="home section">
+        <section id="home" class="home section">
           <div class="container">
             <div class="row">
               <div class="home-info padd-15">
@@ -86,7 +125,7 @@
         </section>
         <!-- / Home Section End -->
         <!-- About Section Start -->
-        <section class="about section">
+        <section id="about" class="about section">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -317,7 +356,7 @@
         </section>
         <!-- / About Section End -->
         <!-- Services Section Start -->
-        <section class="service section">
+        <section id="services" class="service section">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -432,7 +471,7 @@
         </section>
         <!-- / Services Section End -->
         <!-- Portfolio Section Start -->
-        <section class="portfolio section">
+        <section id="portfolio" class="portfolio section">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -504,7 +543,7 @@
         </section>
         <!-- / Portfolio Section End -->
         <!-- Contact Section Start -->
-        <section class="contact section">
+        <section id="contact" class="contact section">
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
@@ -611,7 +650,27 @@
       <!-- / Main Content End  -->
     </div>
     <!-- / Main Container End -->
+    <!-- Style Switcher Start -->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!-- / Style Switcher End -->
     <!-- Main Js -->
     <script src="./assets/js/index.js"></script>
+    <!-- Style Switcher Js -->
+    <script src="./assets/js/style-switcher.js"></script>
   </body>
 </html>

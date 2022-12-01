@@ -1,0 +1,41 @@
+@media (max-width: 767px) {
+  .about {
+    .about-content {
+      .education,
+      .experience,
+      .personal-info,
+      .skills {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  .service {
+    .service-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  .portfolio {
+    .row {
+      .portfolio-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  .contact {
+    .container {
+      .contact-info-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+      .contact-form {
+        .col-6 {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

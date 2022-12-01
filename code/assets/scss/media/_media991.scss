@@ -1,0 +1,33 @@
+@media (max-width: 991px) {
+  .home {
+    .home-info {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .home-img {
+      display: none;
+    }
+  }
+  .service {
+    .service-item {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  .portfolio {
+    .container {
+      .portfolio-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+  }
+  .contact {
+    .container {
+      .contact-info-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+    }
+  }
+}
