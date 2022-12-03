@@ -1,10 +1,32 @@
 @media (max-width: 1199px) {
   .aside {
     left: -270px;
+
+    .nav-toggler {
+      display: flex;
+      left: 30px;
+
+      &.open {
+        left: 300px;
+      }
+    }
+    &.open {
+      left: 0;
+    }
   }
 
   .main-content {
-    padding-left: 0;
+    .section {
+      left: 0;
+
+      &.open {
+        left: 270px;
+      }
+
+      .container {
+        padding-top: 70px;
+      }
+    }
 
     .about {
       .about-content {

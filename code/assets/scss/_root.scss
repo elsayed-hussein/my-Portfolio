@@ -44,10 +44,27 @@ ul {
   display: block;
   padding: 0 30px;
   opacity: 1;
+  position: fixed;
+  left: 270px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
 
   .container {
     padding-top: 60px;
     padding-bottom: 70px;
+  }
+  &.active {
+    z-index: 2;
+    opacity: 1;
+    animation: slideSection 1s ease;
+  }
+  &.back-section {
+    z-index: 1;
   }
 }
 
@@ -92,4 +109,13 @@ ul {
 }
 .shadow-dark {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
+@keyframes slideSection {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
