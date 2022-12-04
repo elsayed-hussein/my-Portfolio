@@ -42,6 +42,13 @@
       color: var(--text-black-700);
       font-weight: 400;
     }
+
+    a {
+      color: var(--skin-color);
+      &:visited {
+        color: var(--skin-color);
+      }
+    }
   }
 
   .contact-form {
