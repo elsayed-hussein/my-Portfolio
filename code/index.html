@@ -745,8 +745,8 @@
                 </div>
                 <h4>Website</h4>
                 <p>
-                  <a href="https://elsayed-hussein.pages.dev/" target="_blank"
-                    >elsayed-hussein.pages.dev</a
+                  <a href="https://elsayed-portfolio.web.app/" target="_blank"
+                    >elsayed-portfolio.web.app</a
                   >
                 </p>
               </div>
@@ -756,53 +756,62 @@
             <h4 class="contact-sub-title padd-15">I'm Very Responsive</h4>
             <!-- Contact Form Start -->
             <div class="row">
-              <div class="contact-form padd-15">
-                <div class="row">
-                  <div class="form-item col-6 padd-15">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Name"
-                      />
+              <form action="">
+                <div class="contact-form padd-15">
+                  <div class="row">
+                    <div class="form-item col-6 padd-15">
+                      <div class="form-group">
+                        <input
+                          name="name"
+                          type="text"
+                          class="form-control"
+                          placeholder="Name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="form-item col-6 padd-15">
+                      <div class="form-group">
+                        <input
+                          name="email"
+                          type="email"
+                          class="form-control"
+                          placeholder="eMail"
+                          required
+                        />
+                      </div>
                     </div>
                   </div>
-                  <div class="form-item col-6 padd-15">
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        placeholder="eMail"
-                      />
+                  <div class="row">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <input
+                          name="subject"
+                          type="text"
+                          class="form-control"
+                          placeholder="Subject"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <textarea
+                          name="message"
+                          id=""
+                          placeholder="Message"
+                          class="form-control"
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="form-item col-12 padd-15">
+                      <!-- [ ] Add Function -->
+                      <button type="submit" class="btn">Send Message</button>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="form-item col-12 padd-15">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Subject"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-item col-12 padd-15">
-                    <div class="form-group">
-                      <textarea
-                        name=""
-                        id=""
-                        placeholder="Message"
-                        class="form-control"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="form-item col-12 padd-15">
-                    <!-- [ ] Add Function -->
-                    <button type="submit" class="btn">Send Message</button>
-                  </div>
-                </div>
-              </div>
+              </form>
             </div>
             <!-- / Contact Form End -->
           </div>

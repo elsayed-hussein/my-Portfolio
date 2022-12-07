@@ -18,13 +18,13 @@
   .main-content {
     .section {
       left: 0;
-      padding-bottom: 20px;
 
       &.open {
         left: 270px;
       }
 
       .container {
+        margin-bottom: 30px;
         padding-top: 70px;
       }
     }
